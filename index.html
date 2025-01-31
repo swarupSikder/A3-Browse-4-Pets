@@ -82,9 +82,66 @@
     <!---------->
     <!--Header-->
     <!---------->
-    <header>
+    <header class="px-2 md:px-0 bg-base-color shadow-md md:shadow-none">
 
-        
+        <div class="navbar container mx-auto py-2 md:py-6">
+
+            <!-------->
+            <!--left-->
+            <!-------->
+            <div class="navbar-start space-x-4">
+                <img class="w-[32px] md:w-[48px]" src="assets/logo-header.png" alt="">
+
+                <!--site logo-->
+                <a
+                    class="font-bold text-2xl hidden md:flex hover:scale-110 hover:text-gray-400 hover:cursor-pointer transition duration-300 ease-in-out">
+                    Browse
+                    <span class="text-primary-color">4</span>
+                    Pets
+                </a>
+            </div>
+
+
+
+
+
+            <!------->
+            <!--mid-->
+            <!------->
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1 text-lg">
+                    <li><a>Find a pet</a></li>
+                    <li><a>Breeds</a></li>
+                    <li><a>Contact Us</a></li>
+                </ul>
+            </div>
+
+
+
+
+
+            <!--------->
+            <!--right-->
+            <!--------->
+            <div class="navbar-end">
+
+                <!--for md, lg-->
+                <div class="hidden lg:flex items-center space-x-5">
+                    <i
+                        class="fi fi-rr-bell text-2xl hover:text-primary-color hover:cursor-pointer hover:scale-150 transition duration-300 ease-in-out"></i>
+                    <i
+                        class="fi fi-rr-search text-2xl hover:text-primary-color hover:cursor-pointer hover:scale-150 transition duration-300 ease-in-out"></i>
+                    <a class="btn px-8 text-lg border border-primary-color bg-transparent">Login</a>
+                    <a class="btn px-8 text-lg bg-primary-color">Register</a>
+                </div>
+
+                <!--for sm-->
+                <div class="lg:hidden">
+                    <i class="fi fi-rr-menu-burger text-2xl"></i>
+                </div>
+
+            </div>
+        </div>
 
     </header>
 
